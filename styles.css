@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:  rgba(154, 154, 211, 0.1);
+}
+.border {
+    margin: auto;
+    margin-top: 15px;
+    background-color: white;
+    height: 600px;
+    width: 600px;
+    border: 3px solid rgba(0, 0, 255, 0.4);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);  
+}
+h1 {
+    text-align: center;
+    color: #333;
+    padding: 70px 0 0;
+    letter-spacing: 0.5px;
+}
+hr {
+    width: 90%;
+    margin: auto;
+    border: none;
+    height: 1.5px;
+    background-color: rgba(200, 0, 0, 0.5);
+    margin-top: 5px;
+}
+
+.serif {
+    background-color: rgba(154, 154, 211, 0.1);
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-left: 4px solid rgba(0, 0, 255, 0.4);
+    
+    
+}
+
+.sans-serif {
+    background-color: rgba(255, 253, 108, 0.4);
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border-right: 4px solid rgb(255, 200, 0);
+}
+.box {
+    width: 90%;
+    height: 200px;
+    padding: 30px;
+    border: 2px dashed purple;
+    margin: auto;
+}
+h2 {
+    text-align: center;
+    color: purple;
+    margin-top: 10px;
+}
+
+button {
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 10px 80px 10px;
+    border: 7px solid rgb(200, 0, 0);
+    margin-top: 15px;
+    
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
